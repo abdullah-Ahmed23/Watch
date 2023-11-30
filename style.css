@@ -1,0 +1,231 @@
+:root{
+    --bootstrap-sm: 576px;
+--bootstrap-md: 768px;
+--bootstrap-lg: 992px;
+--bootstrap-xl: 1200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-link{
+    transition: 0.3s;
+    font-weight: 700;
+    color: black;
+    padding: 10px 20px;
+
+}
+.dropdown-menu{
+    transition: 0.3s;
+    border-bottom: 3px solid red;
+}
+.dropdown-menu a{
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.dropdown-menu a:hover{
+    padding-left: 30px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    transition: 0.6s;
+
+}
+
+.navbar-brand{
+    padding: 0;
+    
+}
+header i{
+    transition: 0.3s;
+}
+header{
+
+    z-index: 1000;
+    transition: 0.6s;
+    width: 100%;
+    
+}
+.nav-link:hover{
+    margin: 0 20px;
+    background-color: rgb(212, 131, 131);
+    transform: scale(1.1);
+    
+    color: black;
+}
+.hero{
+    display: flex;
+}
+
+.hero .row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.hero .row .txt{
+    margin: 30px 0;
+}
+.hero .row .txt h1{
+    font-size: 4rem;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #0A1936;
+}
+.hero .row .txt p{
+    margin: 35px 0;
+}
+.hero .row .txt a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+.navbar-toggler-icon{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    
+}
+.new-arrivals{
+    background-color: aliceblue;
+}
+.new-arrivals .row .uno .image{
+    overflow: hidden;
+    
+    
+}
+.new-arrivals h1{
+    text-align: center;
+}
+.new-arrivals h3{
+    font-weight: 900;
+}
+.new-arrivals .row .uno .image img{
+    transition: transform .5s ease;
+    
+}
+.new-arrivals .row .uno .image img:hover{
+    transform: scale(1.1);
+    
+}
+.new-arrivals .row .uno p{
+    text-align: center;
+    color: red;
+}
+.gallery{
+    display: flex;
+}
+.gallery .row .image img{
+    transition:.5s ease;
+    
+}
+.gallery .row  .image img:hover{
+    filter: brightness(30%);
+    
+    
+}
+.popular{
+    text-align: center;
+
+}
+.popular h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.popular p{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #5c5c5c;
+}
+.card .txt h1,p{
+    font-size: 1rem;
+}
+/* .popular .card img{
+    width: 417px;
+} */
+.card .image {
+    margin-bottom: 2vh;
+    border-bottom:2px solid red;
+    position: relative;
+}
+.card{
+    position: relative;
+}
+.card i{
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+.bit{
+    background: red;
+    padding: 10px;
+    color: white;
+    position: relative;
+    opacity: 0;
+    
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.bit h3{
+font-size: 18px;
+}
+.card i:hover{
+    color: red;
+    cursor: pointer;
+}
+.card:hover i{
+    opacity: 1;
+}
+.card:hover .bit{
+    opacity: 1;
+}
+.choice .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice .txt h1{
+    color: black;
+    font-weight: 900;
+}
+.choice .txt p{
+    color: #5c5c5c;
+    margin: 30px 0;
+}
+.choice .txt a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+.last{
+    background-color: red;
+    color: white;
+    padding: 20px 30px;
+    width: 100%;
+}
+.cards i{
+    font-size: 25px;
+}   
+
+.dropdown-menu.show{
+    transition: 0.3s;
+}
